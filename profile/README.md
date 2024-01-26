@@ -23,8 +23,6 @@
 
 ## Llamada a la acción
 
-¿Estás listo para unirte a [organización de Sorryconz]? ¡Únete hoy y conviértete en parte de algo extraordinario!
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🧙 Remember, you can do mighty things with the poñwer of [Markdown]() 
+¿Estás listo para unirte a [organización de Sorryconz]?() ¡Únete hoy y conviértete en parte de algo extraordinario!
+
 
