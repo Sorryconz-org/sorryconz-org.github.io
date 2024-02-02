@@ -1,4 +1,4 @@
-## Hi there 👋
+##  there 👋
 
 ## Introducción
 
@@ -24,5 +24,4 @@
 ## Llamada a la acción
 
 ¿Estás listo para unirte a [organización de Sorryconz]?() ¡Únete hoy y conviértete en parte de algo extraordinario!
-
 
