@@ -4,7 +4,7 @@
 
 [Sorryconz]() es una comunidad vibrante dedicada a [enunciado de la misión]. Creemos que [valor central] y [valor central] son esenciales para [objetivo].
 
-## ¿Qué hace a [Sorryconz]() única?
+## ¿Qué hace a [Sorryconz](https://sorryconz.github.io/sorryconz.github.io-/) única?
 
 [Sorryconz]() se distingue por su la partisipacion de la comunidad. Esta característica nos permite brimdar recursos informativos.
 
