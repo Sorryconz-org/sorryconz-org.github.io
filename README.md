@@ -1,8 +1,9 @@
-##  there 👋
+##  Que tal bienvenidos a asorryconz
 
 ## Introducción
 
-[Sorryconz]() es una comunidad vibrante dedicada a [enunciado de la misión]. Creemos que [valor central] y [valor central] son esenciales para [objetivo].
+[Sorryconz]() pretende ser una comunidad vibrante dedicada a facilitar [documentacion] para todas las personas y de manera que se pueda comprender faciente 
+Creemos que [valor central] y [valor central] son esenciales para [objetivo].
 
 ## ¿Qué hace a [Sorryconz](https://sorryconz.github.io/sorryconz.github.io-/) única?
 
