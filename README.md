@@ -43,7 +43,7 @@ Si te apasiona la educación y quieres ayudar a otros a aprender, te invitamos a
 **Síguenos en redes sociales:**
 
 * Facebook: <se quitó una URL no válida>
-* Twitter: <se quitó una URL no válida>
+* Twitter: <https://twitter.com/SorryConZ>
 * Instagram: <se quitó una URL no válida>
 
 **¡Esperamos verte pronto!**
