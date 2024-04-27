@@ -1,4 +1,4 @@
-## Sorryconz: Una comunidad para el aprendizaje y la colaboración
+## Sorryconz: Pretende seruma comunidad para el aprendizaje y la colaboración
 
 **¿Qué es Sorryconz?**
 
