@@ -56,6 +56,6 @@ Si te apasiona la educación y quieres ayudar a otros a aprender, te invitamos a
 
 * Facebook: <https://www.facebook.com/sorryconz.org>
 * Twitter: <https://twitter.com/SorryConZ>
-* Mastodon es: <se quitó una URL no válidahttps://masto.es/@sorryconz>
+* Mastodon es: <https://masto.es/@sorryconz>
 
 **¡Esperamos verte pronto!**
