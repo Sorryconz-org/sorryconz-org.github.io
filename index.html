@@ -1,663 +1,840 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-  <meta charset="utf-8">
-  <title>Home</title>
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
 
-  <!-- Favicon -->
-  <link href="img/favicon.ico" rel="icon">
+  <title>sorryconz.org</title>
 
-  <!-- Google Web Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
-  <!-- Icon Font Stylesheet -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- fonts awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,500,700&display=swap" rel="stylesheet" />
 
-  <!-- Libraries Stylesheet -->
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
-  <!-- Customized Bootstrap Stylesheet -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Template Stylesheet -->
-  <link href="css/style.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
 </head>
 
 <body>
-  <!-- Spinner Start -->
-  <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-    <div class="spinner-grow text-primary" role="status"></div>
-  </div>
-  <!-- Spinner End -->
-
-
-  <!-- Navbar Start -->
-  <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-    <a href="index.html" class="navbar-brand d-block d-lg-none">
-      <h1 class="text-primary">Sorryconz</h1>
-    </a>
-    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
-      <div class="navbar-nav ms-auto py-0">
-        <a href="index.html" class="nav-item nav-link active">Home</a>
-        <a href="about.html" class="nav-item nav-link">About</a>
-        <a href="service.html" class="nav-item nav-link">Services</a>
-      </div>
-      <a href="index.html" class="navbar-brand bg-primary py-2 px-4 mx-3 d-none d-lg-block">
-        <h1 class="text-white">Sorryconz</h1>
-      </a>
-      <div class="navbar-nav me-auto py-0">
-        <a href="project.html" class="nav-item nav-link">Projects</a>
-        <div class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-          <div class="dropdown-menu rounded-0 shadow-sm border-0 m-0">
-            <a href="feature.html" class="dropdown-item">Features</a>
-            <a href="team.html" class="dropdown-item">Our Team</a>
-            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-            <a href="404.html" class="dropdown-item">404 Page</a>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="contact_nav_container">
+        <div class="container">
+          <div class="contact_nav">
+            <a href="">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+                Address : Tijuana Mexico
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <span>
+                Email : sorryconz@sorryconz.org
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>
+                Phone Call : +01 123455678990
+              </span>
+            </a>
           </div>
         </div>
-        <a href="contact.html" class="nav-item nav-link">Contact</a>
       </div>
-    </div>
-  </nav>
-  <!-- Navbar End -->
-
-
-  <!-- Header Start -->
-  <div class="container-fluid hero-header bg-light py-5 mb-5">
-    <div class="container py-5">
-      <div class="row g-5 align-items-center">
-        <div class="col-lg-6">
-          <p class="text-primary text-uppercase mb-2 animated slideInDown">
-            WELCOME TO SORRYCONZ
-          </p>
-          <h1 class="display-4 mb-3 animated slideInDown"> new nonprofit organization</h1>
-          <p class="animated slideInDown">
-             Trying to do what many don't even try, With a little of your help we can do great things for those who also need 
-          </p>
-          <div class="d-flex align-items-center pt-4 animated slideInDown">
-            <a href="" class="btn btn-primary py-3 px-4 me-5">Explore More</a>
-            <button type="button" class="btn-play" data-bs-toggle="modal"
-              data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
-              <span></span>
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <div class="custom_menu-btn">
+            <button onclick="openNav()">
+              <span class="s-1"> </span>
+              <span class="s-2"> </span>
+              <span class="s-3"> </span>
             </button>
-            <h5 class="ms-4 mb-0 d-none d-sm-block">Play Video</h5>
           </div>
-        </div>
-        <div class="col-lg-6 animated fadeIn">
-          <div class="row g-3">
-            <div class="col-6 text-end">
-              <img class="img-fluid bg-white p-3 w-100 mb-3" src="img/hero-1.jpg" alt="">
-              <img class="img-fluid bg-white p-3 w-50" src="img/hero-3.jpg" alt="">
+          <div id="myNav" class="overlay">
+            <div class="menu_btn-style ">
+              <button onclick="closeNav()">
+                <span class="s-1"> </span>
+                <span class="s-2"> </span>
+                <span class="s-3"> </span>
+              </button>
             </div>
-            <div class="col-6">
-              <img class="img-fluid bg-white p-3 w-50 mb-3" src="img/hero-4.jpg" alt="">
-              <img class="img-fluid bg-white p-3 w-100" src="img/hero-2.jpg" alt="">
+            <div class="overlay-content">
+              <a class="active" href="index.html"> Home <span class="sr-only">(current)</span></a>
+              <a class="" href="about.html"> About</a>
+              <a class="" href="why.html"> Why Us </a>
+              <a class="" href="team.html"> Our Team</a>
+              <a class="" href="testimonial.html"> Testimonial</a>
+              <a class="" href="contact.html"> Contact Us</a>
+            </div>
+          </div>
+          <a class="navbar-brand" href="index.html">
+            <span>
+              sorryconz.org
+            </span>
+          </a>
+          <div class="user_option">
+            <a href="">
+              <span>
+                Login
+              </span>
+              <i class="fa fa-user" aria-hidden="true"></i>
+            </a>
+            <form class="form-inline">
+              <button class="btn  nav_search-btn" type="submit">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class="slider_section position-relative">
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+          <li data-target="#customCarousel1" data-slide-to="1"></li>
+          <li data-target="#customCarousel1" data-slide-to="2"></li>
+          <li data-target="#customCarousel1" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="box">
+              <div class="baby_detail">
+                <div class="baby_text">
+                  <h2>
+                    sorryconz <br />
+
+                    Organization
+                  </h2>
+                </div>
+                <a href="">
+                  Read More
+                </a>
+              </div>
+              <div class="care_detail">
+                <a href="">
+                  Contact Us
+                </a>
+                <div class="care_text">
+                  <h2>
+                    We will take <br />
+                    Care of <br />
+                    All Comunity
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="box">
+              <div class="baby_detail">
+                <div class="baby_text">
+                  <h2>
+                    sorrycoz <br />
+                    Organization
+                  </h2>
+                </div>
+                <a href="">
+                  Read More
+                </a>
+              </div>
+              <div class="care_detail">
+                <a href="">
+                  Contact Us
+                </a>
+                <div class="care_text">
+                  <h2>
+                    We will take <br />
+                    Care of <br />
+                    All comunity
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="box">
+              <div class="baby_detail">
+                <div class="baby_text">
+                  <h2>sorrycoz <br />
+                    organization
+                  </h2>
+                </div>
+                <a href="">
+                  Read More
+                </a>
+              </div>
+              <div class="care_detail">
+                <a href="">
+                  Contact Us
+                </a>
+                <div class="care_text">
+                  <h2>
+                    We will take <br />
+                    Care of <br />
+                    All comunity
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="box">
+              <div class="baby_detail">
+                <div class="baby_text">
+                  <h2>
+                    baby <br />
+                    Care center
+                  </h2>
+                </div>
+                <a href="">
+                  Read More
+                </a>
+              </div>
+              <div class="care_detail">
+                <a href="">
+                  Contact Us
+                </a>
+                <div class="care_text">
+                  <h2>
+                    We will take <br />
+                    Care of <br />
+                    All Comunity
+                  </h2>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+    <!-- end slider section -->
   </div>
-  <!-- Header End -->
 
+  <!-- service section -->
 
-  <!-- Video Modal Start -->
-  <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content rounded-0">
-        <div class="modal-header">
-          <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <!-- 16:9 aspect ratio -->
-          <div class="ratio ratio-16x9">
-            <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
-              allow="autoplay"></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Video Modal End -->
-
-
-  <!-- About Start -->
-  <div class="container-xxl py-5">
+  <section class="service_section ">
     <div class="container">
-      <div class="row g-5">
-        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="row g-3 img-twice position-relative h-100">
-            <div class="col-6">
-              <img class="img-fluid bg-light p-3" src="img/about-1.jpg" alt="">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/service1.png" alt="" />
             </div>
-            <div class="col-6 align-self-end">
-              <img class="img-fluid bg-light p-3" src="img/about-2.jpg" alt="">
+            <div class="detail-box">
+              <h4>
+                atencion y canalización medica
+              </h4>
+              <p>
+                Para todo aquel que lo necesite
+              </p>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-          <div class="h-100">
-            <p class="text-primary text-uppercase mb-2">
-              About Us
-            </p>
-            <h1 class="display-6 mb-4">We Are Creative And Professional Photographer</h1>
-            <p>
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
-            </p>
-            <p>
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
-            </p>
-            <div class="row g-2 mb-4">
-              <div class="col-sm-6">
-                <i class="fa fa-check text-primary me-3"></i>Quality Products
-              </div>
-              <div class="col-sm-6">
-                <i class="fa fa-check text-primary me-3"></i>Custom Products
-              </div>
-              <div class="col-sm-6">
-                <i class="fa fa-check text-primary me-3"></i>Online Order
-              </div>
-              <div class="col-sm-6">
-                <i class="fa fa-check text-primary me-3"></i>Home Delivery
-              </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="box ">
+            <div class="img-box">
+              <img src="images/service2.png" alt="" />
             </div>
-            <a class="btn btn-primary py-3 px-5" href="">Read More</a>
+            <div class="detail-box">
+              <h4>
+                Ropa
+              </h4>
+              <p>
+                para que te sientas meior contigo mismo
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/service3.png" alt="" />
+            </div>
+            <div class="detail-box">
+              <h4>
+                Refugio
+              </h4>
+              <p>
+                si no cuentas con techo te anexamos alv!!!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/service4.png" alt="" />
+            </div>
+            <div class="detail-box">
+              <h4>
+                apoyo emocional
+              </h4>
+              <p>
+                te guiamos por el mejor calino 
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- About End -->
+  </section>
 
+  <!-- end service section -->
 
-  <!-- Facts Start -->
-  <div class="container-xxl py-5">
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
+    <div class="container-fluid">
+      <div class="box">
+        <div class="img-box">
+          <img src="images/about-img.jpg" alt="" />
+        </div>
+        <div class="detail-box">
+          <h2>
+            About Us
+          </h2>
+          <p>
+            anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internetanything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internetanything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat
+          </p>
+          <a href="">
+            <span>
+              Read More
+            </span>
+            <hr />
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+  <!-- we have section -->
+
+  <section class="wehave_section">
+    <div class="container-fluid">
+      <div class="box">
+        <div class="detail-box">
+          <h2>
+            We Have Good <br />
+            Babysitters
+          </h2>
+          <p>
+            words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+          </p>
+          <a href="">
+            <span>
+              Read More
+            </span>
+            <hr />
+          </a>
+        </div>
+        <div class="img-box">
+          <img src="images/we_img.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end we have section -->
+
+  <!-- why section -->
+
+  <section class="why_section layout_padding">
     <div class="container">
-      <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-        <p class="text-primary text-uppercase mb-2">
-          Why Choose Us!
+      <div class="heading_container">
+        <h2>
+          Why Choose Us
+        </h2>
+        <p>
+          words which don't look even slightly believable. If you are going to use a passage m
         </p>
-        <h1 class="display-6 mb-5">The Leading Photo Studio In The Country</h1>
       </div>
-      <div class="row g-3">
-        <div class="col-lg-4 col-md-6 pt-lg-5 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="fact-item bg-light text-center h-100 p-5">
-            <h1 class="display-2 text-primary mb-3" data-toggle="counter-up">35</h1>
-            <h4 class="mb-3">Award Winning</h4>
-            <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</span>
+      <div class="why_container">
+        <div class="box">
+          <div class="img-box">
+            <img src="images/why1.png" alt="" />
+          </div>
+          <div class="detail-box">
+            <h5>
+              We have Medical Care For Baby
+            </h5>
+            <a href="">
+              <span>
+                Read More
+              </span>
+              <hr />
+            </a>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-          <div class="fact-item bg-light text-center h-100 p-5">
-            <h1 class="display-2 text-primary mb-3" data-toggle="counter-up">45</h1>
-            <h4 class="mb-3">Years Experience</h4>
-            <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</span>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/why2.png" alt="" />
+          </div>
+          <div class="detail-box">
+            <h5>
+              We have Good Babysitter
+            </h5>
+            <a href="">
+              <span>
+                Read More
+              </span>
+              <hr />
+            </a>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 pt-lg-5 wow fadeInUp" data-wow-delay="0.5s">
-          <div class="fact-item bg-light text-center h-100 p-5">
-            <h1 class="display-2 text-primary mb-3" data-toggle="counter-up">12345</h1>
-            <h4 class="mb-3">Happy Clients</h4>
-            <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</span>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/why3.png" alt="" />
+          </div>
+          <div class="detail-box">
+            <h5>
+              We have Security for Baby
+            </h5>
+            <a href="">
+              <span>
+                Read More
+              </span>
+              <hr />
+            </a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/why4.png" alt="" />
+          </div>
+          <div class="detail-box">
+            <h5>
+              Successful
+            </h5>
+            <a href="">
+              <span>
+                Read More
+              </span>
+              <hr />
+            </a>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Facts End -->
+  </section>
 
+  <!-- end why section -->
 
-  <!-- Service Start -->
-  <div class="container-xxl bg-light py-5 my-5">
-    <div class="container py-5">
-      <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-        <p class="text-primary text-uppercase mb-2">
-          Our Services
+  <!-- team section -->
+
+  <section class="team_section">
+    <div class="container-fluid">
+      <div class="heading_container">
+        <h2>
+          Our Team
+        </h2>
+        <p>
+          words which don't look even slightly believable. If you are going to use a passage m
         </p>
-        <h1 class="display-6 mb-4">We Provide Best Professional Services</h1>
       </div>
-      <div class="row g-3">
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="service-item d-flex flex-column bg-white p-3 pb-0">
-            <div class="position-relative">
-              <img class="img-fluid" src="img/service-1.jpg" alt="">
-              <div class="service-overlay">
-                <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-link text-primary"></i></a>
+      <div class="carousel-wrap ">
+        <div class="owl-carousel team_carousel">
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/team1.jpg" alt="" />
               </div>
-            </div>
-            <div class="text-center p-4">
-              <h4>Weddings</h4>
+              <div class="detail-box">
+                <h6>
+                  Hennry bilisom
+                </h6>
+                <div class="social_box">
+                  <a href="">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6 pt-lg-5 wow fadeInUp" data-wow-delay="0.3s">
-          <div class="service-item d-flex flex-column bg-white p-3 pb-0">
-            <div class="position-relative">
-              <img class="img-fluid" src="img/service-2.jpg" alt="">
-              <div class="service-overlay">
-                <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-link text-primary"></i></a>
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/team2.jpg" alt="" />
               </div>
-            </div>
-            <div class="text-center p-4">
-              <h4>Portraits</h4>
+              <div class="detail-box">
+                <h6>
+                  Hennry bilisom
+                </h6>
+                <div class="social_box">
+                  <a href="">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-          <div class="service-item d-flex flex-column bg-white p-3 pb-0">
-            <div class="position-relative">
-              <img class="img-fluid" src="img/service-3.jpg" alt="">
-              <div class="service-overlay">
-                <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-link text-primary"></i></a>
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/team3.jpg" alt="" />
               </div>
-            </div>
-            <div class="text-center p-4">
-              <h4>Fashion</h4>
+              <div class="detail-box">
+                <h6>
+                  Hennry bilisom
+                </h6>
+                <div class="social_box">
+                  <a href="">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6 pt-lg-5 wow fadeInUp" data-wow-delay="0.7s">
-          <div class="service-item d-flex flex-column bg-white p-3 pb-0">
-            <div class="position-relative">
-              <img class="img-fluid" src="img/service-4.jpg" alt="">
-              <div class="service-overlay">
-                <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-link text-primary"></i></a>
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/team4.jpg" alt="" />
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Hennry bilisom
+                </h6>
+                <div class="social_box">
+                  <a href="">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+                </div>
               </div>
             </div>
-            <div class="text-center p-4">
-              <h4>Editorial</h4>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/team5.jpg" alt="" />
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Hennry bilisom
+                </h6>
+                <div class="social_box">
+                  <a href="">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/team2.jpg" alt="" />
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Hennry bilisom
+                </h6>
+                <div class="social_box">
+                  <a href="">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Service End -->
+  </section>
 
+  <!-- end team section -->
 
-  <!-- Project Start -->
-  <div class="container-xxl py-5">
+  <!-- contact section -->
+
+  <section class="contact_section layout_padding-top">
     <div class="container">
-      <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-        <p class="text-primary text-uppercase mb-2">
-          Our Works
-        </p>
-        <h1 class="display-6 mb-0">Discover Our Unique And Creative Photoshoot</h1>
-      </div>
-      <div class="row g-3">
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="row g-3">
-            <div class="col-12">
-              <div class="project-item">
-                <img class="img-fluid" src="img/project-5.jpg" alt="">
-                <a class="project-title h5 mb-0" href="img/project-5.jpg" data-lightbox="project">
-                  Memory
-                </a>
-              </div>
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <div class="contact-form">
+            <div class="heading_container">
+              <h2>
+                Get In Touch
+              </h2>
             </div>
-            <div class="col-12">
-              <div class="project-item">
-                <img class="img-fluid" src="img/project-1.jpg" alt="">
-                <a class="project-title h5 mb-0" href="img/project-1.jpg" data-lightbox="project">
-                  Wedding
-                </a>
+            <form action="">
+              <input type="text" placeholder="Full name " />
+              <div class="top_input">
+                <input type="email" placeholder="Email" />
+                <input type="text" placeholder="Phone Number" />
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-          <div class="row g-3">
-            <div class="col-12">
-              <div class="project-item">
-                <img class="img-fluid" src="img/project-2.jpg" alt="">
-                <a class="project-title h5 mb-0" href="img/project-2.jpg" data-lightbox="project">
-                  Portrait
-                </a>
+              <input type="text" placeholder="Message" class="message_input" />
+              <div class="btn-box">
+                <button>
+                  Send
+                </button>
               </div>
-            </div>
-            <div class="col-12">
-              <div class="project-item">
-                <img class="img-fluid" src="img/project-6.jpg" alt="">
-                <a class="project-title h5 mb-0" href="img/project-6.jpg" data-lightbox="project">
-                  Travel
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-          <div class="row g-3">
-            <div class="col-12">
-              <div class="project-item">
-                <img class="img-fluid" src="img/project-7.jpg" alt="">
-                <a class="project-title h5 mb-0" href="img/project-7.jpg" data-lightbox="project">
-                  Wedding
-                </a>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="project-item">
-                <img class="img-fluid" src="img/project-3.jpg" alt="">
-                <a class="project-title h5 mb-0" href="img/project-3.jpg" data-lightbox="project">
-                  Memory
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-          <div class="row g-3">
-            <div class="col-12">
-              <div class="project-item">
-                <img class="img-fluid" src="img/project-4.jpg" alt="">
-                <a class="project-title h5 mb-0" href="img/project-4.jpg" data-lightbox="project">
-                  Fashion
-                </a>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="project-item">
-                <img class="img-fluid" src="img/project-8.jpg" alt="">
-                <a class="project-title h5 mb-0" href="img/project-8.jpg" data-lightbox="project">
-                  Portrait
-                </a>
-              </div>
-            </div>
+            </form>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Project End -->
+  </section>
 
+  <!-- end contact section -->
 
-  <!-- Team Start -->
-  <div class="container-xxl px-0 py-5">
-    <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-      <p class="text-primary text-uppercase mb-2">
-        Our Team
-      </p>
-      <h1 class="display-6 mb-0">Creative Photograher And Videographer</h1>
-    </div>
-    <div class="row g-0">
-      <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-        <div class="row g-0 flex-sm-row">
-          <div class="col-sm-6">
-            <div class="team-img position-relative">
-              <img class="img-fluid" src="img/team-1.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="h-100 p-5 d-flex flex-column justify-content-between">
-              <div class="mb-3">
-                <h4>Lucifer Jhones</h4>
-                <span>Photographer</span>
-              </div>
-              <p>
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
-              </p>
-              <div class="d-flex">
-                <a class="btn btn-square btn-outline-primary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square btn-outline-primary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square btn-outline-primary rounded-circle me-2" href=""><i class="fab fa-instagram"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
-        <div class="row g-0 flex-sm-row-reverse flex-lg-row">
-          <div class="col-sm-6">
-            <div class="team-img position-relative">
-              <img class="img-fluid" src="img/team-2.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="h-100 p-5 d-flex flex-column justify-content-between">
-              <div class="mb-3">
-                <h4>Jesse Joslin</h4>
-                <span>Videographer</span>
-              </div>
-              <p>
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
-              </p>
-              <div class="d-flex">
-                <a class="btn btn-square btn-outline-primary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square btn-outline-primary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square btn-outline-primary rounded-circle me-2" href=""><i class="fab fa-instagram"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-        <div class="row g-0 flex-lg-row-reverse">
-          <div class="col-sm-6">
-            <div class="team-img position-relative">
-              <img class="img-fluid" src="img/team-3.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="h-100 p-5 d-flex flex-column justify-content-between">
-              <div class="mb-3">
-                <h4>Richard Archer</h4>
-                <span>Retoucher</span>
-              </div>
-              <p>
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
-              </p>
-              <div class="d-flex">
-                <a class="btn btn-square btn-outline-primary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square btn-outline-primary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square btn-outline-primary rounded-circle me-2" href=""><i class="fab fa-instagram"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
-        <div class="row g-0 flex-sm-row-reverse">
-          <div class="col-sm-6">
-            <div class="team-img position-relative">
-              <img class="img-fluid" src="img/team-4.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="h-100 p-5 d-flex flex-column justify-content-between">
-              <div class="mb-3">
-                <h4>April Ryan</h4>
-                <span>Editor</span>
-              </div>
-              <p>
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
-              </p>
-              <div class="d-flex">
-                <a class="btn btn-square btn-outline-primary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square btn-outline-primary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square btn-outline-primary rounded-circle me-2" href=""><i class="fab fa-instagram"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Team End -->
+  <!-- client section -->
 
-
-  <!-- Testimonial Start -->
-  <div class="container-xxl py-5">
+  <section class="client_section layout_padding">
     <div class="container">
-      <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-        <p class="text-primary text-uppercase mb-2">
-          Client's Review
-        </p>
-        <h1 class="display-6 mb-0">More Than 20000+ Customers Trusted Us</h1>
+      <div class="heading_container">
+        <h2>
+          Testimonial
+        </h2>
       </div>
-      <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-        <div class="testimonial-item bg-white p-4">
-          <div class="d-flex align-items-center mb-4">
-            <img class="flex-shrink-0 rounded-circle border p-1" src="img/testimonial-1.jpg" alt="">
-            <div class="ms-4">
-              <h5 class="mb-1">Client Name</h5>
-              <span>Profession</span>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/client.jpg" alt="" />
+              </div>
+              <div class="client_detail">
+                <div class="client_name">
+                  <div class="client_info">
+                    <h4>
+                      Roocky Rom
+                    </h4>
+                    <span>
+                      Parante
+                    </span>
+                  </div>
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                </div>
+                <p>
+                  use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+                </p>
+              </div>
             </div>
           </div>
-          <p class="mb-0">
-            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.
-          </p>
-        </div>
-        <div class="testimonial-item bg-white p-4">
-          <div class="d-flex align-items-center mb-4">
-            <img class="flex-shrink-0 rounded-circle border p-1" src="img/testimonial-2.jpg" alt="">
-            <div class="ms-4">
-              <h5 class="mb-1">Client Name</h5>
-              <span>Profession</span>
+          <div class="carousel-item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/client.jpg" alt="" />
+              </div>
+              <div class="client_detail">
+                <div class="client_name">
+                  <div class="client_info">
+                    <h4>
+                      Roocky Rom
+                    </h4>
+                    <span>
+                      Parante
+                    </span>
+                  </div>
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                </div>
+                <p>
+                  use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+                </p>
+              </div>
             </div>
           </div>
-          <p class="mb-0">
-            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.
-          </p>
-        </div>
-        <div class="testimonial-item bg-white p-4">
-          <div class="d-flex align-items-center mb-4">
-            <img class="flex-shrink-0 rounded-circle border p-1" src="img/testimonial-3.jpg" alt="">
-            <div class="ms-4">
-              <h5 class="mb-1">Client Name</h5>
-              <span>Profession</span>
-            </div>
-          </div>
-          <p class="mb-0">
-            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.
-          </p>
-        </div>
-        <div class="testimonial-item bg-white p-4">
-          <div class="d-flex align-items-center mb-4">
-            <img class="flex-shrink-0 rounded-circle border p-1" src="img/testimonial-4.jpg" alt="">
-            <div class="ms-4">
-              <h5 class="mb-1">Client Name</h5>
-              <span>Profession</span>
-            </div>
-          </div>
-          <p class="mb-0">
-            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Testimonial End -->
-
-
-  <!-- Footer Start -->
-  <div class="container-fluid footer position-relative bg-dark text-white-50 mt-5 py-5 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-    <div class="row g-5 py-5">
-      <div class="col-lg-6 pe-lg-5">
-        <a href="index.html" class="navbar-brand">
-          <h1 class="display-5 text-primary">Sorryconz</h1>
-        </a>
-        <p>
-          Aliquyam sed elitr elitr erat sed diam ipsum eirmod eos lorem nonumy. Tempor sea ipsum diam  sed clita dolore eos dolores magna erat dolore sed stet justo et dolor.
-        </p>
-        <p>
-          <i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA
-        </p>
-        <p>
-          <i class="fa fa-phone-alt me-2"></i>+012 345 67890
-        </p>
-        <p>
-          <i class="fa fa-envelope me-2"></i>info@example.com
-        </p>
-        <div class="d-flex justify-content-start mt-4">
-          <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="#"><i class="fab fa-twitter"></i></a>
-          <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="#"><i class="fab fa-facebook-f"></i></a>
-          <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a class="btn btn-square btn-outline-primary rounded-circle me-2" href="#"><i class="fab fa-instagram"></i></a>
-        </div>
-      </div>
-      <div class="col-lg-6 ps-lg-5">
-        <div class="row g-5">
-          <div class="col-sm-6">
-            <h4 class="text-light mb-4">Quick Links</h4>
-            <a class="btn btn-link" href="">About Us</a>
-            <a class="btn btn-link" href="">Contact Us</a>
-            <a class="btn btn-link" href="">Our Services</a>
-            <a class="btn btn-link" href="">Terms & Condition</a>
-            <a class="btn btn-link" href="">Support</a>
-          </div>
-          <div class="col-sm-6">
-            <h4 class="text-light mb-4">Popular Links</h4>
-            <a class="btn btn-link" href="">About Us</a>
-            <a class="btn btn-link" href="">Contact Us</a>
-            <a class="btn btn-link" href="">Our Services</a>
-            <a class="btn btn-link" href="">Terms & Condition</a>
-            <a class="btn btn-link" href="">Support</a>
-          </div>
-          <div class="col-sm-12">
-            <h4 class="text-light mb-4">Newsletter</h4>
-            <div class="w-100">
-              <div class="input-group">
-                <input type="text" class="form-control border-0 bg-secondary" style="padding: 20px 30px;" placeholder="Your Email Address"><button class="btn btn-primary px-4">Sign Up</button>
+          <div class="carousel-item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/client.jpg" alt="" />
+              </div>
+              <div class="client_detail">
+                <div class="client_name">
+                  <div class="client_info">
+                    <h4>
+                      Roocky Rom
+                    </h4>
+                    <span>
+                      Parante
+                    </span>
+                  </div>
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                </div>
+                <p>
+                  use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+                </p>
               </div>
             </div>
           </div>
         </div>
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
       </div>
     </div>
-  </div>
-  <!-- Footer End -->
+  </section>
 
+  <!-- end client section -->
 
-  <!-- Copyright Start -->
-  <div class="container-fluid bg-dark text-white border-top border-secondary px-0">
-    <div class="d-flex flex-column flex-md-row justify-content-between">
-      <div class="py-4 px-5 text-center text-md-start">
-        <p class="mb-0">
-          &copy; <a class="text-primary" href="#">sorryconz.org</a>. All Rights Reserved.
-        </p>
-      </div>
-      <div class="py-4 px-5 bg-secondary footer-shape position-relative text-center text-md-end">
-        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-        <p class="mb-0">
-          Designed by <a class="text-primary fw-bold" href="https://htmlcodex.com">HTML Codex</a>
-        </p>
+  <!-- info section -->
+
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="info_contact">
+            <h5>
+              Address
+            </h5>
+            <div class="contact_link_box">
+              <a href="">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Location
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Call +01 1234567890
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  demo@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="info_social">
+            <a href="">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="info_link_box">
+            <h5>
+              Navigation
+            </h5>
+            <div class="info_links">
+              <a class="active" href="index.html"> <i class="fa fa-angle-right" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a>
+              <a class="" href="about.html"> <i class="fa fa-angle-right" aria-hidden="true"></i> About</a>
+              <a class="" href="why.html"> <i class="fa fa-angle-right" aria-hidden="true"></i> Why Us </a>
+              <a class="" href="team.html"> <i class="fa fa-angle-right" aria-hidden="true"></i> Our Team</a>
+              <a class="" href="testimonial.html"> <i class="fa fa-angle-right" aria-hidden="true"></i> Testimonial</a>
+              <a class="" href="contact.html"> <i class="fa fa-angle-right" aria-hidden="true"></i> Contact Us</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h5>
+            Newsletter
+          </h5>
+          <form action="">
+            <input type="text" placeholder="Enter Your email" />
+            <button type="submit">
+              Subscribe
+            </button>
+          </form>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- Copyright End -->
+  </section>
 
+  <!-- end info section -->
 
-  <!-- Back to Top -->
-  <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+  <!-- footer section -->
+  <footer class="footer_section container-fluid">
+    <p>
+      &copy; <span id="displayYear"></span> All Rights Reserved. Design by
+      <a href="https://sorryconz.org/">sorryconz.org</a>
+    </p>
+  </footer>
+  <!-- footer section -->
 
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="js/custom.js"></script>
 
-  <!-- JavaScript Libraries -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/counterup/counterup.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-
-  <!-- Template Javascript -->
-  <script src="js/main.js"></script>
 </body>
 
 </html>
